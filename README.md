@@ -4,7 +4,7 @@
 Usage: SageMakerStudioLab (it's free) 
 
 This repo contains a training approach to training the YOLOv5 model on the coco128 dataset using the `_YOLOv5-Custom-Training.ipynb` notebook. The 
-`_YOLOv5-Custom-Training.ipynb` notebook no longer clones the latest ultralytics git page in the first code block, instead it contains the yolov5 folder from the yolov5 github page (https://github.com/ultralytics/yolov5.git) that is up to date as of the 4th November 2022. 
+`_YOLOv5-Custom-Training.ipynb` notebook clones the latest ultralytics git page in the first code block (https://github.com/ultralytics/yolov5.git) that is up to date as of the 4th November 2022. 
 This repo already contains the coco128 dataset, within the `_YOLOv5-Custom-Training.ipynb` the code points to the coco128 folder that contains the data
 via a YAML file. The YAML files can be found in the `yolo-files`, the YAML file for the coco128 dataset is called `coco128.yaml`. (Note: the file structure 
 of the coco128 dataset is super important here, with one folder called `images`, one folder called `labels` and another called `test` - you can place what 
