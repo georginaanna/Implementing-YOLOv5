@@ -1,8 +1,9 @@
 # YOLOv5
 ## Computer vision for object detection using YOLOv5
 
-Usage: SageMakerStudioLab (it's free) 
+Usage: SageMakerStudioLab (it's free) or google colab
 
+![yolov5 types](https://user-images.githubusercontent.com/26833433/155040763-93c22a27-347c-4e3c-847a-8094621d3f4e.png "Types of YOLOv5 Models")
 This repo contains a training approach to training the YOLOv5 model on the coco128 dataset using the `_YOLOv5-Custom-Training.ipynb` notebook. The 
 `_YOLOv5-Custom-Training.ipynb` notebook clones the latest ultralytics git page in the first code block (https://github.com/ultralytics/yolov5.git) that is up to date as of the 4th November 2022. 
 This repo already contains the coco128 dataset, within the `_YOLOv5-Custom-Training.ipynb` the code points to the coco128 folder that contains the data
